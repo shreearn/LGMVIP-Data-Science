@@ -37,3 +37,45 @@ Required Libraries:
 - matplotlib
 - sklearn
 - graphviz
+
+
+
+
+
+
+# Iris Flowers Classification ML Project
+# LGVIP_IRIS
+
+Task Description:
+
+Implementing a Logistic Regression model to classify Iris flowers into three species (setosa, versicolor, virginica) based on sepal and petal measurements.
+
+
+Dataset:
+
+The Iris dataset contains the following columns:
+
+- Sepal_Length(cm)
+- Sepal_Width(cm)
+- Petal_Length(cm)
+- Petal_Width(cm)
+- Species_Flower
+
+  
+Steps:
+
+1. Importing necessary libraries.
+2. Loading the dataset and preparing it for training.
+3. Checking for missing values in the dataset.
+4. Performing statistical analysis on the dataset.
+5. Separating the dataset into dependent (y) and independent (x) variables.
+6. Splitting the dataset into training and testing sets.
+7. Building a Logistic Regression model.
+8. Evaluating the model's accuracy on the training and testing sets.
+9. Predicting the species of Iris flowers for custom data.
+
+   
+Required Libraries:
+- pandas
+- numpy
+- sklearn
