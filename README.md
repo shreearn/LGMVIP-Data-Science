@@ -44,7 +44,7 @@ Required Libraries:
 
 
 # Iris Flowers Classification ML Project
-# LGVIP_IRIS
+# LGMVIP_IRIS
 
 Task Description:
 
@@ -79,3 +79,48 @@ Required Libraries:
 - pandas
 - numpy
 - sklearn
+
+
+
+# Stock Market Prediction and Forecasting using Stacked LSTM
+# LGMVIP_LSTM
+
+Task Description:
+
+Implementing a Stacked Long Short-Term Memory (LSTM) model to predict and forecast stock prices based on historical stock data.
+
+
+Dataset:
+
+The dataset contains the following columns:
+- Date
+- Open
+- High
+- Low
+- Last
+- Close
+- Total Trade Quantity
+- Turnover (Lacs)
+
+  
+Steps:
+
+1. Importing necessary libraries.
+2. Loading and preprocessing the dataset.
+3. Creating a new dataframe with only the 'Close' feature.
+4. Splitting the dataset into training and testing sets.
+5. Creating sequences of data for LSTM input.
+6. Building a Stacked LSTM model.
+7. Training the model on the training set.
+8. Making predictions on the training and testing sets.
+9. Evaluating the model's performance using Mean Squared Error (MSE).
+10. Visualizing the actual vs predicted stock prices.
+
+    
+Required Libraries:
+
+- numpy
+- pandas
+- sklearn
+- keras
+- matplotlib
